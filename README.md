@@ -12,6 +12,7 @@ The patients per GP data was a simple calculation based on the number of GPs and
 The complete dataset can be found in the repository – accurate as at April 1 2021.
 
 Geocoding
+
 To geocode the surgery addresses we first concatenated the ‘name’, ‘address’ and ‘postcode’ columns to create an address string.
 We then used a geocode API via a google sheet following instructions from Will Geary:
 https://willgeary.github.io/data/2016/11/04/Geocoding-with-Google-Sheets.html
